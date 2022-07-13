@@ -3,6 +3,6 @@ import App from './App';
 
 test('todo', () => {
   render(<App />);
-  const textElement = screen.getByText(/AddOn/i);
+  const textElement = screen.getByText('AddOn');
   expect(textElement).toBeInTheDocument();
 });
