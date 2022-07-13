@@ -23,7 +23,7 @@ function App() {
       isCompleted: false,
   },
   {
-      text: 'Resume studying 3hrs+',
+      text: 'Study',
       isCompleted: false,
   },
   ]);
