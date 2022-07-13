@@ -16,11 +16,12 @@ function TodoForm({addTodo}){
     //value updated on onChange event (e)
     return (
         <form onSubmit={handleSubmit}>
+        <label className="label">AddOn</label>
         <input 
             type="text"
             className="input"
             value= {value}
-            placeholder="Add Todo..."
+            placeholder="Todo..."
             onChange={e => setValue(e.target.value)}
         />
     </form>
